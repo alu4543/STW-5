@@ -127,5 +127,5 @@ El Puerto es el puerto de escucha que hemos especificado en de ficheros estátic
 * **Build Status in Travis:** [![Build Status](https://travis-ci.org/alu4543/STW-4.svg)](https://travis-ci.org/alu4543/STW-4)
 * **[Despliegue](http://10.6.128.187:8080)**
 * **[test](http://10.6.128.187:8080/test)**
-* **[Repositorio en GitHub](https://github.com/alu4543/STW-5)**
-* **Página web de la [asignatura](http://alu4543.github.io/)**
+* **[GitHub](https://github.com/alu4543/STW-5)**
+* **[web de la asignatura](http://alu4543.github.io/)**
