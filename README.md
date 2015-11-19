@@ -56,28 +56,7 @@ Para ver la ip de la maquina ejecutamos el siguiente famoso comando :
 
 ![media](media/media8.PNG)
 
-#### 5. Acceso por SSH
-En el caso de linux y mac podemos guardar los datos de la máquina en el fichero ~/.ssh/config para no tener que recordar el hostname y el usuario para acceder.
-  * consulta [ssh config simplifica nuestra vida](http://rafael.bonifaz.ec/blog/2011/01/sshconfig-simplifica-nuestra-vida-con-ssh/)
-
-* Dentro de la red de la ULL:
-    autentificarnos en acceso.ull Ejecutar el comando:
-
-      $ ssh vpn
-
-* Fuera de la red de la ULL:
-  * Aseguramos que ya estamos conectados a la red de la ULL via VPN | ![media](media/media4.PNG)
-  * Comprobamos que estamos autentificados en [http://acceso.ull.es](http://acceso.ull.es)
-
-![media](media/loginUll.PNG)
-
-  * Para la conección SSH en mi caso he utilizado Putty SSH Client
-    * elegiendo la opción SSH
-    * especificando para el login usuario@10.6.128.187
-
-![media](media/PuttySSH.PNG)  ![media](media/PuttySSH2.PNG)  ![media](media/PuttySSH3.PNG)
-
-#### 6.Instalaciones necesarias
+#### 5.Instalaciones necesarias
 Ya la máquina tiene instalados NodeJS y git.
 Pero con los siguientes comandos instalaremos desde zero todo lo que necesitamos para desplegar nuestra pagina ya que no está instalado todo lo que nos hace falta.
 
@@ -97,13 +76,34 @@ Para comprobar las versiones instaladas
 
 ![media](media/media10.PNG)
 
-#### 7. git clone
+#### 6. git clone
 Para desplegamos la práctica anterior en esta maquina tenemos que clonar el repositorio git del proyecto para posteriormente desplegarlo en la máquina.
 
     $ git clone git@github.com:alu4543/STW-5.git
 
 
 ![media](media/media11.PNG)
+
+#### 7. Acceso por SSH
+En el caso de linux y mac podemos guardar los datos de la máquina en el fichero ~/.ssh/config para no tener que recordar el hostname y el usuario para acceder.
+  * consulta [ssh config simplifica nuestra vida](http://rafael.bonifaz.ec/blog/2011/01/sshconfig-simplifica-nuestra-vida-con-ssh/)
+
+* Dentro de la red de la ULL:
+    autentificarnos en acceso.ull Ejecutar el comando:
+
+      $ ssh vpn
+
+* Fuera de la red de la ULL:
+  * Aseguramos que ya estamos conectados a la red de la ULL via VPN | ![media](media/media4.PNG)
+  * Comprobamos que estamos autentificados en [http://acceso.ull.es](http://acceso.ull.es)
+
+![media](media/loginUll.PNG)
+
+  * Para la conección SSH en mi caso he utilizado Putty SSH Client
+    * elegiendo la opción SSH
+    * especificando para el login usuario@10.6.128.187
+
+![media](media/PuttySSH.PNG)  ![media](media/PuttySSH2.PNG)  ![media](media/PuttySSH3.PNG)
 
 #### 8.Instalación de las dependencias
 Instalamos las dependencias necesarias de nuestra aplicación, especificadas en el package.json con el comando:
