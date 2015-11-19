@@ -118,13 +118,14 @@ Con el siguiente comando arrancaremos el servidor por primera ves:
 ![media](media/media12.PNG)
 
 #### 10. Visualizar la pagina web
-La ip es la de nuestra máquina que habíamos avereguado con el comando  
-El Puerto es el puerto de escucha que hemos especificado en de ficheros estáticos.
+http://10.6.128.187:8080
+La ip 10.6.128.187 es la de nuestra máquina que habíamos avereguado con el comando  
+El Puerto 8080 es el puerto de escucha que hemos especificado en static-server.js para ficheros estáticos.
 
 ![media](media/media13.PNG)   ![media](media/media14.PNG)
 
 #### 11.Links de la práctica:
-* **Build Status in Travis:** [![Build Status](https://travis-ci.org/alu4543/STW-4.svg)](https://travis-ci.org/alu4543/STW-4)
+* **[Build Status in Travis]** [![Build Status](https://travis-ci.org/alu4543/STW-4.svg)](https://travis-ci.org/alu4543/STW-4)
 * **[Despliegue](http://10.6.128.187:8080)**
 * **[test](http://10.6.128.187:8080/test)**
 * **[GitHub](https://github.com/alu4543/STW-5)**
