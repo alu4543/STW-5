@@ -15,7 +15,9 @@ Utilizar el código de la práctica anterior STW -4 Converter para su despliegue
 * Web Worker
 * Karma
 * Travis & badge de Travis en README.md
+
 ### Pasos para el displiegue de la aplicación:
+
 #### 1. Accedso a iaas.ull.es
 * El primer paso es acceder a iaas.ull.es,
 * Hacemos click en "Portal del usuario",
@@ -24,7 +26,8 @@ Utilizar el código de la práctica anterior STW -4 Converter para su despliegue
   ![media](media/media1.PNG)
 
   * En caso que estamos fuera de la red de la ULL
-    * Instalaremos y configuramos el cliente VPN Global Protect para estar en la red de la ULL. | ![media](media/media4.PNG)
+    * Instalaremos y configuramos el cliente VPN Global Protect para estar en la red de la ULL.
+
     ![media](media/media2.PNG)  ![media](media/media3.PNG)
 
 #### 2.  Configuración
@@ -37,6 +40,7 @@ Utilizar el código de la práctica anterior STW -4 Converter para su despliegue
   ![media](media/media6.PNG)
 
   * También podemos acceder por SSH mediante un cliente ssh que detallaremos los pasos más adelante.
+
 #### 3. Arrancar la maquina virtual
 * Arrancamos la máquina con los credenciales (Login: usuario y contraseña: usuario)
   * Posteriormente se nos pide cambiar la contraseña una vez iniciemos por primera vez sesión.
